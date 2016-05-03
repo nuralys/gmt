@@ -76,7 +76,7 @@ class CountriesController extends AppController{
 		
 		$title_for_layout = 'Страны';
 		$data = $this->Country->find('all', array(
-			'order' => array('id' => 'desc')
+			'order' => array('Country.id' => 'desc')
 			));
 		$this->set(compact('data', 'title_for_layout'));
 	}
