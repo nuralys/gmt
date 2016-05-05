@@ -7,6 +7,7 @@
 	<div class="title">
 		<h1>ВЫБЕРИТЕ СПЕЦИАЛИЗАЦИЮ</h1>
 	</div>
+	<ul class="spec_list">
 	<?php echo $specializations ?>
-	
+	</ul>
 </div>
